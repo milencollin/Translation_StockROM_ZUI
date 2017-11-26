@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="color_chip_all_day_height">48</integer>
+    <integer name="color_chip_height">24</integer>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="ahead_15m_value">15</integer>
+    <integer name="ahead_1d_value">1440</integer>
+    <integer name="ahead_1h_value">60</integer>
+    <integer name="ahead_1w_value">10080</integer>
+    <integer name="ahead_2d_value">2880</integer>
+    <integer name="ahead_2h_value">120</integer>
+    <integer name="ahead_30m_value">30</integer>
+    <integer name="ahead_3h_value">180</integer>
+    <integer name="ahead_5m_value">5</integer>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="bottom_bar_tool_bar_item_max_count">5</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="calendar_controls_animation_time">400</integer>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="chips_max_lines">-1</integer>
+    <integer name="config_list_bounce_left_back_time">260</integer>
+    <integer name="config_list_bounce_left_rush_time">300</integer>
+    <integer name="default_attendee_photo_alpha_level">255</integer>
+    <integer name="event_info_desc_line_num">8</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="noresponse_attendee_photo_alpha_level">64</integer>
+    <integer name="ontime_value">0</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="work_end_minutes">1200</integer>
+    <integer name="work_start_minutes">360</integer>
+</resources>

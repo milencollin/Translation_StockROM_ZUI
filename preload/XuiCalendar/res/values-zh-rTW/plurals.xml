@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="Ndays">
+        <item quantity="other">%d 天</item>
+        <item quantity="one">1 天</item>
+    </plurals>
+    <plurals name="Nevents">
+        <item quantity="other">%d 個活動</item>
+        <item quantity="one">1 個活動</item>
+    </plurals>
+    <plurals name="Nhours">
+        <item quantity="other">%d 小時</item>
+        <item quantity="one">1 小時</item>
+    </plurals>
+    <plurals name="Nmins">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">1 分鐘</item>
+    </plurals>
+    <plurals name="Nminutes">
+        <item quantity="other">%d 分鐘</item>
+        <item quantity="one">1 分鐘</item>
+    </plurals>
+    <plurals name="daily">
+        <item quantity="other">每 %d 天</item>
+        <item quantity="one">每天</item>
+    </plurals>
+    <plurals name="endByCount">
+        <item quantity="other">，%d 次</item>
+        <item quantity="one">，1 次</item>
+    </plurals>
+    <plurals name="weekly">
+        <item quantity="other">每 %1$d 週 (每%2$s)</item>
+        <item quantity="one">每週 (每%2$s)</item>
+    </plurals>
+</resources>

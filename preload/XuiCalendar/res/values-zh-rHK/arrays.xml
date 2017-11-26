@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="allinone_menu_items">
+        <item>縱覽</item>
+        <item>年視圖</item>
+        <item>設定</item>
+    </string-array>
+    <string-array name="array_birthday_alert">
+        <item>當天提醒</item>
+        <item>1天前</item>
+        <item>3天前</item>
+        <item>1週前</item>
+        <item>15天前</item>
+        <item>1月前</item>
+    </string-array>
+    <string-array name="array_reminder_multi_alert">
+        <item>任務發生當天</item>
+        <item>1天前</item>
+        <item>2天前</item>
+        <item>3天前</item>
+        <item>1週前</item>
+        <item>15天前</item>
+        <item>1個月前</item>
+    </string-array>
+    <string-array name="availability">
+        <item>忙碌</item>
+        <item>有空</item>
+        <item>暫定</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>僅限此活動</item>
+        <item>系列中的所有活動</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>僅限此活動</item>
+        <item>此活動及未來活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="newbuildlist_menu_items">
+        <item>新建</item>
+        <item>搜索</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>第一個</item>
+        <item>第二個</item>
+        <item>第三個</item>
+        <item>第四個</item>
+        <item>最後一個</item>
+    </string-array>
+    <string-array name="pasttime_remindertype">
+        <item>按天提醒</item>
+        <item>按週提醒</item>
+        <item>按月提醒</item>
+    </string-array>
+    <string-array name="permission_dialog_contents">
+        <item>造訪日曆相關的資訊</item>
+        <item>讀取儲存裝置中日曆相關的資訊</item>
+        <item>讀取短信與日曆相關的服務類資訊，用於將內容新增到日曆</item>
+        <item>如同步國家節假日資訊，以及同步日曆相關資訊</item>
+        <item>聯絡人生日同步到日曆</item>
+    </string-array>
+    <string-array name="permission_dialog_titles">
+        <item>造訪日曆資訊</item>
+        <item>讀取儲存裝置</item>
+        <item>造訪短信紀錄</item>
+        <item>造訪流動網絡</item>
+        <item>造訪聯絡人</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_styles_labels">
+        <item>不提醒</item>
+        <item>只通知欄提醒</item>
+        <item>通知欄和彈窗提醒</item>
+    </string-array>
+    <string-array name="preferences_skip_reminders_labels">
+        <item>只限拒絕時</item>
+        <item>拒絕或未回應時</item>
+    </string-array>
+    <string-array name="preferences_week_start_day_labels">
+        <item>地區設定預設值</item>
+        <item>週六</item>
+        <item>週日</item>
+        <item>週一</item>
+    </string-array>
+    <string-array name="quick_response_defaults">
+        <item>要遲幾分鐘才開始。</item>
+        <item>我大約 10 分鐘後抵達。</item>
+        <item>別等，請直接開始。</item>
+        <item>抱歉，會議延遲30分鐘開始</item>
+    </string-array>
+    <string-array name="reminder_methods_labels">
+        <item>通知</item>
+        <item>電郵</item>
+        <item>短訊</item>
+        <item>鬧鐘</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels">
+        <item>任務發生時</item>
+        <item>1分鐘前</item>
+        <item>5分鐘前</item>
+        <item>10分鐘前</item>
+        <item>15分鐘前</item>
+        <item>20分鐘前</item>
+        <item>25分鐘前</item>
+        <item>30分鐘前</item>
+        <item>45分鐘前</item>
+        <item>1小時前</item>
+        <item>2小時前</item>
+        <item>3小時前</item>
+        <item>12小時前</item>
+        <item>1天前</item>
+        <item>2天前</item>
+        <item>1週前</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels2">
+        <item>準時提醒</item>
+        <item>5分鐘前</item>
+        <item>15分鐘前</item>
+        <item>30分鐘前</item>
+        <item>1小時前</item>
+        <item>2小時前</item>
+        <item>3小時前</item>
+        <item>1天前</item>
+        <item>2天前</item>
+        <item>1週前</item>
+    </string-array>
+    <string-array name="reminder_minutes_labels_with_none">
+        <item>不提醒</item>
+        <item>任務發生時</item>
+        <item>1分鐘前</item>
+        <item>5分鐘前</item>
+        <item>10分鐘前</item>
+        <item>15分鐘前</item>
+        <item>20分鐘前</item>
+        <item>25分鐘前</item>
+        <item>30分鐘前</item>
+        <item>45分鐘前</item>
+        <item>1小時前</item>
+        <item>2小時前</item>
+        <item>3小時前</item>
+        <item>12小時前</item>
+        <item>1天前</item>
+        <item>2天前</item>
+        <item>1週前</item>
+    </string-array>
+    <string-array name="repeat_by_nth_fri">
+        <item>逢每月第一個星期五</item>
+        <item>逢每月第二個星期五</item>
+        <item>逢每月第三個星期五</item>
+        <item>逢每月第四個星期五</item>
+        <item>逢每月最後一個星期五</item>
+    </string-array>
+    <string-array name="repeat_by_nth_mon">
+        <item>逢每月第一個星期一</item>
+        <item>逢每月第二個星期一</item>
+        <item>逢每月第三個星期一</item>
+        <item>逢每月第四個星期一</item>
+        <item>逢每月最後一個星期一</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sat">
+        <item>逢每月第一個星期六</item>
+        <item>逢每月第二個星期六</item>
+        <item>逢每月第三個星期六</item>
+        <item>逢每月第四個星期六</item>
+        <item>逢每月最後一個星期六</item>
+    </string-array>
+    <string-array name="repeat_by_nth_sun">
+        <item>逢每月第一個星期日</item>
+        <item>逢每月第二個星期日</item>
+        <item>逢每月第三個星期日</item>
+        <item>逢每月第四個星期日</item>
+        <item>逢每月最後一個星期日</item>
+    </string-array>
+    <string-array name="repeat_by_nth_thurs">
+        <item>逢每月第一個星期四</item>
+        <item>逢每月第二個星期四</item>
+        <item>逢每月第三個星期四</item>
+        <item>逢每月第四個星期四</item>
+        <item>逢每月最後一個星期四</item>
+    </string-array>
+    <string-array name="repeat_by_nth_tues">
+        <item>逢每月第一個星期二</item>
+        <item>逢每月第二個星期二</item>
+        <item>逢每月第三個星期二</item>
+        <item>逢每月第四個星期二</item>
+        <item>逢每月最後一個星期二</item>
+    </string-array>
+    <string-array name="repeat_by_nth_wed">
+        <item>逢每月第一個星期三</item>
+        <item>逢每月第二個星期三</item>
+        <item>逢每月第三個星期三</item>
+        <item>逢每月第四個星期三</item>
+        <item>逢每月最後一個星期三</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>沒有回應</item>
+        <item>是</item>
+        <item>不確定</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>馬紹爾群島</item>
+        <item>中途島</item>
+        <item>夏威夷</item>
+        <item>阿拉斯加</item>
+        <item>太平洋時間</item>
+        <item>提華納</item>
+        <item>亞利桑那</item>
+        <item>奇瓦瓦</item>
+        <item>山區時間</item>
+        <item>中美洲</item>
+        <item>中部時間</item>
+        <item>墨西哥市</item>
+        <item>薩克斯其萬省</item>
+        <item>波哥大</item>
+        <item>東部時間</item>
+        <item>委內瑞拉</item>
+        <item>大西洋時間 (巴貝多)</item>
+        <item>大西洋時間</item>
+        <item>瑪瑙斯</item>
+        <item>聖地亞哥</item>
+        <item>紐芬蘭</item>
+        <item>巴西利亞</item>
+        <item>布宜諾斯艾利斯</item>
+        <item>格陵蘭</item>
+        <item>蒙特維多</item>
+        <item>大西洋中部</item>
+        <item>亞速爾群島</item>
+        <item>維德角群島</item>
+        <item>卡薩布蘭卡</item>
+        <item>倫敦、都柏林</item>
+        <item>阿姆斯特丹、柏林</item>
+        <item>貝爾格勒</item>
+        <item>布魯塞爾</item>
+        <item>塞拉耶佛</item>
+        <item>溫特和克</item>
+        <item>非洲西部時間</item>
+        <item>安曼、約旦</item>
+        <item>雅典、伊斯坦堡</item>
+        <item>貝魯特、黎巴嫩</item>
+        <item>開羅</item>
+        <item>赫爾辛基</item>
+        <item>耶路撒冷</item>
+        <item>明斯克</item>
+        <item>哈拉雷</item>
+        <item>巴格達</item>
+        <item>莫斯科</item>
+        <item>科威特</item>
+        <item>奈洛比</item>
+        <item>德黑蘭</item>
+        <item>巴庫</item>
+        <item>第比利斯</item>
+        <item>埃里溫</item>
+        <item>杜拜</item>
+        <item>喀布爾</item>
+        <item>伊斯蘭馬巴德、喀拉蚩</item>
+        <item>烏拉爾</item>
+        <item>凱薩琳堡</item>
+        <item>加爾各答</item>
+        <item>斯里蘭卡</item>
+        <item>加德滿都</item>
+        <item>阿斯塔納</item>
+        <item>仰光</item>
+        <item>克拉斯諾亞爾斯克</item>
+        <item>曼谷</item>
+        <item>北京</item>
+        <item>香港</item>
+        <item>伊爾庫次克</item>
+        <item>吉隆坡</item>
+        <item>伯斯</item>
+        <item>台北</item>
+        <item>首爾</item>
+        <item>東京、大阪</item>
+        <item>亞庫次克</item>
+        <item>阿得雷德</item>
+        <item>達爾文</item>
+        <item>布里斯本</item>
+        <item>霍巴特</item>
+        <item>雪梨、坎培拉</item>
+        <item>海參威</item>
+        <item>關島</item>
+        <item>馬加丹</item>
+        <item>奧克蘭</item>
+        <item>斐濟</item>
+        <item>東加</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>[預設]</item>
+        <item>私人</item>
+        <item>公開</item>
+    </string-array>
+</resources>
