@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="display_layout_height">147.0dip</dimen>
+    <dimen name="top_layout_height">75.0dip</dimen>
+    <dimen name="display_button_radius">34.0px</dimen>
+    <dimen name="display_layout_height_land_multi">100.0dip</dimen>
+    <dimen name="display_layout_height_port_multi">88.0dip</dimen>
+    <dimen name="history_bottom_delete_height">52.0dip</dimen>
+    <dimen name="history_delete_text_size">15.0dip</dimen>
+    <item type="dimen" name="history_divider_dash_gap">@dimen/history_divider_dash_width</item>
+    <dimen name="history_divider_dash_width">4.0dip</dimen>
+    <dimen name="history_divider_height">2.0px</dimen>
+    <dimen name="history_edit_margin_top">46.0dip</dimen>
+    <dimen name="history_formula_text_size">15.0dip</dimen>
+    <dimen name="history_item_delete_text_height">75.0dip</dimen>
+    <dimen name="history_item_delete_text_size">17.0dip</dimen>
+    <dimen name="history_item_delete_text_width">87.0dip</dimen>
+    <dimen name="history_item_display_width">266.0dip</dimen>
+    <dimen name="history_item_height">75.0dip</dimen>
+    <dimen name="history_padding_left">16.0dip</dimen>
+    <dimen name="history_padding_top">16.0dip</dimen>
+    <dimen name="history_result_padding_top">1.0dip</dimen>
+    <dimen name="history_result_text_size">20.0dip</dimen>
+    <dimen name="history_stroke_divider_width">1.0px</dimen>
+    <dimen name="last_pad_btn_margin_top_land_multi">8.0dip</dimen>
+    <dimen name="last_pad_btn_margin_top_port_multi">8.0dip</dimen>
+</resources>

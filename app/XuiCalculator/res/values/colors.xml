@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="display_background_color">#fff5f5f5</color>
+    <color name="display_deg_text_color">#ffdfdfdf</color>
+    <color name="display_formula_or_result_text_color">#ff191919</color>
+    <color name="display_formula_text_color">#ff808080</color>
+    <color name="history_delete_bg_color_n">#ffffffff</color>
+    <color name="history_delete_bg_color_p">#1a000000</color>
+    <color name="history_delete_text_color_n">#ff333333</color>
+    <color name="history_delete_text_color_p">#66333333</color>
+    <color name="history_divider_color">#ffe0e0e0</color>
+    <color name="history_divider_dash_color">#ffe0e0e0</color>
+    <color name="history_edit_status_bar_color">#fff0f0f0</color>
+    <color name="history_formula_text_color">#ff808080</color>
+    <color name="history_result_text_color">#ff808080</color>
+    <color name="pad_background_color">#ffffffff</color>
+    <color name="pad_btn_ac_n">#fff67c5e</color>
+    <color name="pad_btn_ac_p">#fff67c5e</color>
+    <color name="pad_btn_equal_n">#fff67c5e</color>
+    <color name="pad_btn_equal_p">#ffdd6f54</color>
+    <color name="pad_btn_n">#ffffffff</color>
+    <color name="pad_btn_p">#fff0f0f0</color>
+    <color name="pad_button_equal_text_color_n">#ffffffff</color>
+    <color name="pad_button_numeric_background_color_n">#ffffffff</color>
+    <color name="pad_button_numeric_background_color_p">#fff0f0f0</color>
+    <color name="pad_button_numeric_text_color_n">#ff808080</color>
+    <color name="pad_button_operator_background_color_n">#ffffffff</color>
+    <color name="pad_button_operator_background_color_p">#66d6d6d6</color>
+    <color name="pad_button_operator_text_color_n">#ff808080</color>
+    <color name="pad_button_operator_text_color_p">#ff808080</color>
+    <color name="pad_button_text_color">#ff555555</color>
+    <color name="switch_stroke_color_n">#ffb2b2b2</color>
+    <color name="switch_stroke_color_p">#66b2b2b2</color>
+    <color name="switch_text_color_n">#ff808080</color>
+    <color name="switch_text_color_p">#66808080</color>
+</resources>

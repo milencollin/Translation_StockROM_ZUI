@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="minTextSize" format="dimension" />
+    <attr name="maxTextSize" format="dimension" />
+    <attr name="stepTextSize" format="dimension" />
+    <attr name="top" format="reference" />
+    <attr name="content" format="reference" />
+    <attr name="display" format="reference" />
+    <attr name="pad" format="reference" />
+    <attr name="padTypeface" format="string" />
+    <attr name="padBgColor" format="color" />
+    <attr name="maxCircleRadius" format="dimension" />
+    <attr name="radiusType">
+        <enum name="useDiagonal" value="2" />
+        <enum name="useLong" value="0" />
+        <enum name="useShort" value="1" />
+    </attr>
+    <attr name="padImageBgColor" format="color" />
+    <attr name="switchStyle" format="reference" />
+</resources>

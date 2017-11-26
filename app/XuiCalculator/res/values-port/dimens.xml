@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="display_layout_height">147.0dip</dimen>
+    <dimen name="top_layout_height">75.0dip</dimen>
+    <dimen name="display_formula_text_size">20.0dip</dimen>
+    <dimen name="display_formula_text_size_error">20.0dip</dimen>
+    <dimen name="last_pad_btn_margin_top">16.0dip</dimen>
+</resources>

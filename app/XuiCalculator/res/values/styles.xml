@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalculatorTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@color/display_background_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@color/display_background_color</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+    <style name="CalculatorTheme.Edit" parent="@style/CalculatorTheme">
+        <item name="android:statusBarColor">@color/history_edit_status_bar_color</item>
+    </style>
+    <style name="DisplayEditTextStyle">
+        <item name="android:gravity">end|center</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:focusable">false</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DisplayEditTextStyle.Formula.Multi" parent="@style/DisplayEditTextStyle.Formula">
+        <item name="android:textSize">17.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="DisplayEditTextStyle.Formula.Multi.Land" parent="@style/DisplayEditTextStyle.Formula.Multi">
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+    <style name="DisplayEditTextStyle.Formula.Multi.Port" parent="@style/DisplayEditTextStyle.Formula.Multi">
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+    </style>
+    <style name="DisplayEditTextStyle.FormulaOrResult.Multi" parent="@style/DisplayEditTextStyle.FormulaOrResult">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0.0dip</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:paddingStart">16.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="minTextSize">25.0dip</item>
+        <item name="maxTextSize">35.0dip</item>
+        <item name="stepTextSize">5.0dip</item>
+    </style>
+    <style name="DisplayEditTextStyle.FormulaOrResult.Multi.Land" parent="@style/DisplayEditTextStyle.FormulaOrResult.Multi">
+        <item name="android:layout_marginBottom">16.0dip</item>
+    </style>
+    <style name="DisplayEditTextStyle.FormulaOrResult.Multi.Port" parent="@style/DisplayEditTextStyle.FormulaOrResult.Multi">
+        <item name="android:layout_marginBottom">8.0dip</item>
+    </style>
+    <style name="DisplayLayoutStyle.Multi" parent="@style/DisplayLayoutStyle">
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+    <style name="DisplayLayoutStyle.Multi.Land" parent="@style/DisplayLayoutStyle.Multi">
+        <item name="android:layout_height">@dimen/display_layout_height_land_multi</item>
+    </style>
+    <style name="DisplayLayoutStyle.Multi.Port" parent="@style/DisplayLayoutStyle.Multi">
+        <item name="android:layout_height">@dimen/display_layout_height_port_multi</item>
+    </style>
+    <style name="DisplaySwitchStyle">
+        <item name="android:textColor">@color/selector_switch_text_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/selector_switch_stroke</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginTop">16.0dip</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="DisplaySwitchStyle.Science.Multi" parent="@style/DisplaySwitchStyle.Science">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:layout_width">44.0dip</item>
+        <item name="android:layout_height">23.0dip</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginTop">22.0dip</item>
+        <item name="android:text">@string/switch_off_science</item>
+    </style>
+    <style name="HistoryFormulaStyle">
+        <item name="android:textSize">@dimen/history_formula_text_size</item>
+        <item name="android:textColor">@color/history_formula_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="HistoryResultStyle">
+        <item name="android:textSize">@dimen/history_result_text_size</item>
+        <item name="android:textColor">@color/history_result_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/history_result_padding_top</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="PadButtonStyle">
+        <item name="android:textColor">@color/pad_button_numeric_text_color_n</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:minHeight">0.0dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:onClick">onButtonClick</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_rowWeight">1.0</item>
+        <item name="android:layout_columnWeight">1.0</item>
+        <item name="padBgColor">@color/selector_pad_btn_bg</item>
+        <item name="padImageBgColor">@color/selector_pad_btn_bg</item>
+    </style>
+    <style name="PadButtonStyle.Multi" parent="@style/PadButtonStyle">
+        <item name="radiusType">useShort</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Numeric" parent="@style/PadButtonStyle.Multi">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">@color/pad_button_numeric_text_color_n</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Numeric.Point" parent="@style/PadButtonStyle.Multi.Numeric">
+        <item name="android:textSize">28.0dip</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Operator" parent="@style/PadButtonStyle.Multi">
+        <item name="android:textSize">22.0dip</item>
+        <item name="android:textColor">@color/pad_button_operator_text_color_n</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Operator.AC" parent="@style/PadButtonStyle.Multi.Operator">
+        <item name="android:textSize">15.0dip</item>
+        <item name="android:textColor">@color/selector_ac_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Operator.DEL" parent="@style/PadButtonStyle.Multi.Operator">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Operator.Div" parent="@style/PadButtonStyle.Multi.Operator">
+        <item name="android:textSize">22.0dip</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Operator.Equals" parent="@style/PadButtonStyle.Multi.Operator">
+        <item name="android:textSize">28.0dip</item>
+        <item name="android:textColor">@color/pad_button_equal_text_color_n</item>
+        <item name="padBgColor">@color/selector_pad_btn_equal_bg</item>
+        <item name="radiusType">useShort</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Operator.Negative" parent="@style/PadButtonStyle.Multi.Operator">
+        <item name="android:textSize">20.0dip</item>
+    </style>
+    <style name="PadButtonStyle.Multi.Operator.Percent" parent="@style/PadButtonStyle.Multi.Operator">
+        <item name="android:textSize">18.0dip</item>
+    </style>
+    <style name="PadLayoutStyle.Multi" parent="@style/PadLayoutStyle">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="PadLayoutStyle.Multi.Land" parent="@style/PadLayoutStyle.Multi">
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+    </style>
+    <style name="PadLayoutStyle.Multi.Port" parent="@style/PadLayoutStyle.Multi">
+        <item name="android:padding">8.0dip</item>
+    </style>
+</resources>

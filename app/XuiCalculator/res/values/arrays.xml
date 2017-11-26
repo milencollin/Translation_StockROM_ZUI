@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="errors_array">
+        <item>@string/error_nan</item>
+        <item>@string/error_syntax</item>
+        <item>@string/error_formula_too_long</item>
+        <item>Infinity</item>
+    </string-array>
+    <string-array name="history_float_menus">
+        <item>@string/menu_delete</item>
+        <item>@string/menu_copy</item>
+        <item>@string/menu_more</item>
+    </string-array>
+</resources>

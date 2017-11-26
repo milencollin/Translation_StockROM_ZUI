@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DisplayEditTextStyle.Formula" parent="@style/DisplayEditTextStyle">
+        <item name="android:textSize">@dimen/display_formula_text_size</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">0.0dip</item>
+        <item name="android:paddingStart">26.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+    </style>
+    <style name="DisplayEditTextStyle.FormulaOrResult" parent="@style/DisplayEditTextStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">7.0dip</item>
+        <item name="android:layout_marginBottom">26.0dip</item>
+        <item name="android:paddingStart">26.0dip</item>
+        <item name="android:paddingEnd">16.0dip</item>
+        <item name="minTextSize">35.0dip</item>
+        <item name="maxTextSize">50.0dip</item>
+        <item name="stepTextSize">5.0dip</item>
+    </style>
+    <style name="DisplayLayoutStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/display_layout_height</item>
+    </style>
+    <style name="PadButtonStyle.Base" parent="@style/PadButtonStyle" />
+    <style name="PadButtonStyle.Base.Numeric" parent="@style/PadButtonStyle.Base">
+        <item name="android:textSize">27.0dip</item>
+        <item name="android:textColor">@color/pad_button_numeric_text_color_n</item>
+    </style>
+    <style name="PadButtonStyle.Base.Numeric.Point" parent="@style/PadButtonStyle.Base.Numeric">
+        <item name="android:textSize">36.0dip</item>
+    </style>
+    <style name="PadButtonStyle.Base.Operator" parent="@style/PadButtonStyle.Base">
+        <item name="android:textSize">34.0dip</item>
+        <item name="android:textColor">@color/pad_button_operator_text_color_n</item>
+    </style>
+    <style name="PadButtonStyle.Base.Operator.AC" parent="@style/PadButtonStyle.Base.Operator">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/selector_ac_text_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="PadButtonStyle.Base.Operator.DEL" parent="@style/PadButtonStyle.Base.Operator">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="PadButtonStyle.Base.Operator.Equals" parent="@style/PadButtonStyle.Base.Operator">
+        <item name="android:textSize">34.0dip</item>
+        <item name="android:textColor">@color/pad_button_equal_text_color_n</item>
+        <item name="padBgColor">@color/selector_pad_btn_equal_bg</item>
+        <item name="radiusType">useShort</item>
+    </style>
+    <style name="PadButtonStyle.Base.Operator.Negative" parent="@style/PadButtonStyle.Base.Operator">
+        <item name="android:textSize">24.0dip</item>
+    </style>
+    <style name="PadButtonStyle.Base.Operator.Percent" parent="@style/PadButtonStyle.Base.Operator">
+        <item name="android:textSize">24.0dip</item>
+    </style>
+    <style name="PadLayoutStyle">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/pad_background_color</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="DisplaySwitchStyle.Science" parent="@style/DisplaySwitchStyle">
+        <item name="android:textSize">13.0dip</item>
+        <item name="android:layout_width">44.0dip</item>
+        <item name="android:layout_height">23.0dip</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:layout_marginTop">22.0dip</item>
+        <item name="android:text">@string/switch_off_science</item>
+    </style>
+    <style name="PadButtonStyle.Base.Operator.Div" parent="@style/PadButtonStyle.Base.Operator">
+        <item name="android:textSize">30.0dip</item>
+    </style>
+</resources>
