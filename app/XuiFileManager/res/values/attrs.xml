@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="gifSource" format="reference|string" />
+    <attr name="isOpaque" format="boolean" />
+    <attr name="freezesAnimation" format="boolean" />
+    <attr name="src" format="reference" />
+    <attr name="assetName" format="string" />
+    <attr name="panEnabled" format="boolean" />
+    <attr name="zoomEnabled" format="boolean" />
+    <attr name="quickScaleEnabled" format="boolean" />
+    <attr name="tileBackgroundColor" format="color" />
+</resources>
