@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="float_file_menu_items">
+        <item>@string/delete</item>
+        <item>@android:string/copy</item>
+        <item>@android:string/cut</item>
+        <item>@string/share</item>
+        <item>@string/more</item>
+    </string-array>
+    <string-array name="float_folder_menu_items">
+        <item>@string/delete</item>
+        <item>@android:string/copy</item>
+        <item>@android:string/cut</item>
+        <item>@string/more</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_margin">16.0dip</dimen>
+    <dimen name="text_size_14">14.0sp</dimen>
+    <dimen name="text_size_14_dp">14.0dip</dimen>
+    <dimen name="text_size_15">15.0sp</dimen>
+    <dimen name="text_size_15_dp">15.0dip</dimen>
+    <dimen name="text_size_16">16.0sp</dimen>
+    <dimen name="text_size_16_dp">16.0dip</dimen>
+    <dimen name="text_size_17">17.0sp</dimen>
+    <dimen name="text_size_17_dp">17.0dip</dimen>
+</resources>
